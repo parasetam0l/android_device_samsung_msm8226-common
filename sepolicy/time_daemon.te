@@ -1,4 +1,8 @@
+
 type time_data_file, file_type, data_file_type;
+
+#============= File labeling ==============
+type_transition time_daemon system_data_file:file time_data_file;
 
 allow time_daemon platform_app:dir { read search };
 
