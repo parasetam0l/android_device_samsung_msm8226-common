@@ -1,7 +1,7 @@
 
 type sensors_efs_file, file_type;
 
-type sysfs_camera, fs_type, sysfs_type;
+#type sysfs_camera, fs_type, sysfs_type;
 
 type sysfs_display, fs_type, sysfs_type;
 
