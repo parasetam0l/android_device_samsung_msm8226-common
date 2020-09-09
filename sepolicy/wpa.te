@@ -1,5 +1,6 @@
 
 type wpa, domain;
+type wpa_exec, exec_type, file_type;
 init_daemon_domain(wpa)
 
 allow wpa efs_file:dir search;
