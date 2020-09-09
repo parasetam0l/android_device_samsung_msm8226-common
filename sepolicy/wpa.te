@@ -1,4 +1,7 @@
 
+type wpa, domain;
+init_daemon_domain(wpa)
+
 allow wpa efs_file:dir search;
 
 allow wpa wifi_efs_file:file { read open getattr };
