@@ -1,3 +1,4 @@
+type time_data_file, file_type, data_file_type;
 
 allow time_daemon platform_app:dir { read search };
 
