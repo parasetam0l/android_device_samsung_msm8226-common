@@ -28,6 +28,7 @@
  */
 
 #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -38,6 +39,7 @@
 #include "loc_target.h"
 #include "loc_log.h"
 #include "log_util.h"
+#include <cstring>
 
 #define APQ8064_ID_1 "109"
 #define APQ8064_ID_2 "153"
