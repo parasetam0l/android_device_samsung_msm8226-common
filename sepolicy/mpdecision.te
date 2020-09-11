@@ -5,4 +5,6 @@ allow mpdecision socket_device:sock_file  { create setattr write };
 
 allow mpdecision system_data_file:dir { write add_name };
 
-allow mpdecision system_data_file:file { append create open write };
+# allow mpdecision system_data_file:file { append create open write };
+
+allow mpdecision system_data_file:file { open };
