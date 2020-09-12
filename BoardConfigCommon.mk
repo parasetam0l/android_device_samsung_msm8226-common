@@ -94,3 +94,6 @@ BOARD_SEPOLICY_UNION += \
        hostapd.te \
        platform_app.te \
        kernel.te
+       
+#ADRENO SSL
+BOARD_USES_OPENSSL_SYMBOLS := true
