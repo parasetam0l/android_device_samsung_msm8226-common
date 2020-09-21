@@ -320,8 +320,9 @@ public class SamsungMSM8226RIL extends RIL {
         mIsGsm = (phoneType != RILConstants.CDMA_PHONE);
     }
 
+    @Override
     protected void
-    processUnsolicited (Parcel p) {
+    processUnsolicited (Parcel p, int type) {
         Object ret;
         int dataPosition = p.dataPosition();
         int response = p.readInt();
@@ -339,7 +340,7 @@ public class SamsungMSM8226RIL extends RIL {
             }
         }
         p.setDataPosition(dataPosition);
-        super.processUnsolicited(p);
+        super.processUnsolicited(p, type);
     }
 
     @Override
