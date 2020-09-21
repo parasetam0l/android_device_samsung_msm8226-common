@@ -320,7 +320,6 @@ public class SamsungMSM8226RIL extends RIL {
         mIsGsm = (phoneType != RILConstants.CDMA_PHONE);
     }
 
-    @Override
     protected void
     processUnsolicited (Parcel p) {
         Object ret;
